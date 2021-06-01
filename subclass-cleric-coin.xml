@@ -2,7 +2,7 @@
 <elements>
 	<info>
 				<update version="0.0.1">
-						<file name="subclass-cleric-coin.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/arcanum-worlds/odyssey-of-the-dragonlords.index"/>
+						<file name="subclass-cleric-coin.xml" url="https://raw.githubusercontent.com/pisithsork/Aurora-Custom-Build/master/subclass-cleric-coin.index"/>
 				</update>
 		</info>
 	<element name="Coin Domain" type="Archetype" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_CLERIC_COIN_DOMAIN">
