@@ -2,7 +2,7 @@
 <index>
 		<info>
 				<name>Cleric Subclass Coin Domain</name>
-				<update version="1.0.0">
+				<update version="1.0.1">
 						<file name="pisithsork.index" url="https://raw.githubusercontent.com/pisithsork/Aurora-Custom-Build/master/subclass-cleric-coin.index" />
 				</update>
 		</info>
