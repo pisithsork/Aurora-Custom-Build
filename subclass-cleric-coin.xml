@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-				<update version="0.0.2">
+				<update version="1.0.1">
 						<file name="subclass-cleric-coin.xml" url="https://raw.githubusercontent.com/pisithsork/Aurora-Custom-Build/master/subclass-cleric-coin.index"/>
 				</update>
 		</info>
