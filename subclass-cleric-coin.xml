@@ -6,7 +6,7 @@
 				</update>
 		</info>
 	<element name="Coin Domain" type="Archetype" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_CLERIC_COIN_DOMAIN">
-		<supports>Life Domain </supports>
+		<supports>Divine Domain </supports>
 		<description>
 			<p> The Coin Domain allows those who wants to throw money at their problems in order to make it go away. Clerics of this domain are only after one thing and that is money. They see money as being power and they want to blessed to have it wherever they may go. of any and all gods that are willing to offer.
 				</p>
