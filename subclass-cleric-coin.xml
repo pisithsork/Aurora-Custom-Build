@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-				<update version="1.0.1">
+				<update version="1.0.2">
 						<file name="subclass-cleric-coin.xml" url="https://raw.githubusercontent.com/pisithsork/Aurora-Custom-Build/master/subclass-cleric-coin.index"/>
 				</update>
 		</info>
-	<element name="Coin Domain" type="Archetype" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_CLERIC_COIN_DOMAIN">
+	<element name="Coin Domain" type="Archetype" source="user" id="ID_AW_OOTD_ARCHETYPE_CLERIC_COIN_DOMAIN">
 		<supports>Divine Domain </supports>
 		<description>
 			<p> The Coin Domain allows those who wants to throw money at their problems in order to make it go away. Clerics of this domain are only after one thing and that is money. They see money as being power and they want to blessed to have it wherever they may go. of any and all gods that are willing to offer.
