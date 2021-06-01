@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+				<update version="0.0.1">
+						<file name="subclass-cleric-coin.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/arcanum-worlds/odyssey-of-the-dragonlords.index"/>
+				</update>
+		</info>
+	<element name="Coin Domain" type="Archetype" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_CLERIC_COIN_DOMAIN">
+		<supports>Coin Domain </supports>
+		<description>
+			<p> The Coin Domain allows those who wants to throw money at their problems in order to make it go away. Clerics of this domain are only after one thing and that is money. They see money as being power and they want to blessed to have it wherever they may go. of any and all gods that are willing to offer.
+				</p>
+			<div element="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_DOMAIN_SPELLS"/>
+			<div element="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_FLOWING_COFFERS"/>
+			<div element="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_WHEEL_AND_DEAL"/>
+			<div element="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_CD_MAKE_IT_RAIN"/>
+			<div element="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_THROW_MONEY_AT_YOUR_PROBLEMS"/>
+			<div element="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_POTENT_SPELLCASTING"/>
+			<div element="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_PAY_THE_FERRYMAN"/>
+		</description>
+		<sheet display="false">
+			<description> The Coin domain focuses on expending money in order to accomplish certain tasks.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_DOMAIN_SPELLS" level="1"/>
+			<grant type="Archetype Feature" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_FLOWING_COFFERS" level="1"/>
+			<grant type="Archetype Feature" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_WHEEL_AND_DEAL" level="1"/>
+			<grant type="Archetype Feature" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_CD_MAKE_IT_RAIN" level="2"/>
+			<grant type="Archetype Feature" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_THROW_MONEY_AT_YOUR_PROBLEMS" level="6"/>
+			<grant type="Archetype Feature" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_POTENT_SPELLCASTING" level="8"/>
+			<grant type="Archetype Feature" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_PAY_THE_FERRYMAN" level="17"/>
+		</rules>
+	</element>
+	<element name="Domain Spells" type="Archetype Feature" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_DOMAIN_SPELLS">
+		<description>
+			<p>You gain coin spells at the cleric levels listed in the Forge Domain Spells table. See the Coin Domain class feature for how coin spells work.</p>
+			<h5 class="caption">FORGE COIN SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td> Cleric Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Color Spray, Divine Favor</em></td></tr>
+				<tr><td>3rd</td><td><em>Heat Metal, Zone of Truth</em></td></tr>
+				<tr><td>5th</td><td><em>Mass Healing Word, Slow</em></td></tr>
+				<tr><td>7th</td><td><em>Leomund's Secret Chest, Mordenkainen's Private Sanctum</em></td></tr>
+				<tr><td>9th</td><td><em>Commune, Rary's Telepathic Bond</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_COLOR_SPRAY" level="1" spellcasting="Cleric" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DIVINE_FAVOR" level="1" spellcasting="Cleric" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HEAT_METAL" level="1" spellcasting="Cleric" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_ZONE_OF_TRUTH" level="1" spellcasting="Cleric" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MASS_HEALING_WORD" level="1" spellcasting="Cleric" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SLOW" level="1" spellcasting="Cleric" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_LEOMUNDS_SECRET_CHEST" level="1" spellcasting="Cleric" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM" level="1" spellcasting="Cleric" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE" level="1" spellcasting="Cleric" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="1" spellcasting="Cleric" prepared="true"/>
+		</rules>
+	</element>
+
+	<element name="Flowing Coffers" type="Archetype Feature" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_FLOWING_COFFERS">
+		<description>
+			<p>Whenever you are adventuring, you are blessed with good fortune and as such any loot rewards from missions or from loot caches, have the currency reward increased by 15%.</p>
+		</description>
+		<sheet display="false">
+			<description>Everytime you recieve any monetary reward, you gain an additional 15% of the total amount.</description>
+		</sheet>
+		</element>
+
+		<element name="Wheel and Deal" type="Archetype Feature" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_WHEEL_AND_DEAL">
+			<description>From 1st Level, as a bonus action, you can sacrifice a number of maximum hit points up to your Wisdom modifier. If you do you can grant an ally within 15 feet a bonus equal to this amount to their damage roll on an attack or to their AC. This bonus lasts for 2 rounds, and you maximum hit points return after finishing a long rest. </description>
+			<sheet display="false">
+				<description>As a bonus action you can sacrifice your HP equal to your Wisdom modifier to give an ally 15 feet from you to add to their damage or AC. This will last for 2 rounds and you will be given your HP after a long rest. </description>
+			</sheet>
+		</element>
+
+		<element name="Channel Divinity: Make it Rain" type="Archetype Feature" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_CD_MAKE_IT_RAIN">
+			<description>At 2nd level, you gain the following feature from your Divine Domain. As an action, you can present your holy symbol, if you do, you can pay up to 1,000 gp. You heal yourself and your allies within 20 feet by 1 hit point for every 100 gp you spend. At 10th level, you can pay up to 2,500 gp. At 15th level, you can pay up to 5,000 gp. </description>
+			<sheet display="false">
+				<description>As an action, you can pay up to 1,000 gp to heal yourself and your allies within 20 feet by 1 HP per 100 gp you spend. At 10th level you pay ip to 2,500 gp and at 15th level you can pay up to 5,00 gp. </description>
+			</sheet>
+		</element>
+
+		<element name="Throw Money At Your Problems" type="Archetype Feature" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_THROW_MONEY_AT_YOUR_PROBLEMS">
+			<description>At 6th level, you become empowered with wealth. You can spend 1,000 gp in order to gain advantage on any roll for the next 10 minutes. </description>
+			<sheet display="false">
+				<description>You can spend 1,000 gp in order to gain advantage on any roll for the next 10 minutes. </description>
+			</sheet>
+		</element>
+
+		<element name="Potent Spellcasting" type="Archetype Feature" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_POTENT_SPELLCASTING">
+			<description>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip. In addition you may also spend 100 gp in order to deal an extra 1d8 magic damage. You can spend up to 100 gp x your Cleric level per long rest. </description>
+			<sheet display="false">
+				<description>You can add your Wisdom modifier to the damage of any cleric cantrip. Also you may spend 100 gp to deal an extra 1d8 damage. You can spend up to 100 gp x your Cleric level per long rest. </description>
+			</sheet>
+		</element>
+
+		<element name="Pay The Ferryman" type="Archetype Feature" source="Odyssey of the Dragonlords" id="ID_AW_OOTD_ARCHETYPE_FEATURE_COIN_DOMAIN_PAY_THE_FERRYMAN">
+			<description>At 17th level, you no longer require diamonds to use any spell that raises the dead. You can instead simply use gold, but the cost increases by 25%. In addition, if the amount is on your person (accessible during the mission), you can pay this amount to cast such a spell on yourself as a reaction to death. </description>
+			<sheet display="false">
+				<description>You do not need diamonds to use any spell that raises the dead. Instead you pay gold but the cost increases by 25%. Also if you carry the amount, you can pay this amount to cast the spell on yourself as a reaction to death. </description>
+			</sheet>
+		</element>
+	</elements>
