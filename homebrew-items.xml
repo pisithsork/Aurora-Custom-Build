@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wondrous Items</name>
+	</info>
+
+	<element name="Frog in a Jar" source="user" id="HI_MAGIC_ITEM_FROG_IN_A_JAR">
+		<description>
+			<p>The jar is about a foot wide and tall in which there is a single frog inside with a cork keeping it in. The frog looks to be content and calm while inside the jar. The frog is Michigan J. Frog in which he will dance causing a distraction for 1 minute if anyone who sees them fail a WIS 18 Save. </p>
+			<p>In addition it will only dance to the first person who witness it and so if anyone else were to look it would act as a frog. This can be reset if you can trap the frog in the jar, the frog does not require any food to live and it seems to be somewhat durable from damage. HP: 10 AC: 10.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">400</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Monkey's Paw" source="user" id="HI_MAGIC_ITEM_MONKEYS_PAW">
+		<description>
+			<p>It is a whole monkey’s arm that looks to not be rotting away by some sort of magic and the arm is holding up what looks to be a peace sign. You play rock-paper-scissor with the monkey and if you win you get a boast of good luck.</p>
+			<p>You play rock-paper-scissor with the DM and if you win you gain advantage on your next roll of either ability check or attack roll; it takes a bonus action to use this item. You have three charges per day, but you still roll a d20 and if it is a 1 then the Monkey’s Paw curls up and began to turn to dust as it is destroyed.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="5"> 5 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+</elements>
