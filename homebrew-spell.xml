@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Coin Shot" type="Spell" source="user" id="HS_SPELL_COIN_SHOT">
+		<supports>Cleric</supports>
+		<description>
+			<p>You imbue the coin with magic, causing it to streak towards a target within range. Make a ranged spell attack against the target. On hit, the target takes damage based on the value of the coin or piece of currency used.</p>
+			<table>
+				<thead>
+					<tr><td> Component Value</td><td>Damage Die</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>1 Copper Piece</td><td>1d4</td><td><em>Fire</em></td></tr>
+				<tr><td>1 Silver Piece</td><td>1d6</td><td><em>Cold</em></td></tr>
+				<tr><td>1 Gold Piece</td><td>1d8</td><td><em>Psychic</em></td></tr>
+				<tr><td>1 Platinum Piece</td><td>1d10</td><td><em>Radiant</em></td></tr>
+			</table>
+			<p>The coin disappears whether or not you hit your target. This spell's damage increases by one damage die when you reach 5th level, 11th level and 17th level.</p>
+		</description>
+
+		<setters>
+      <set name="keywords">Coin</set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a coin worth at least 1 cp </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    	</setters>
+	</element>
+</elements>
