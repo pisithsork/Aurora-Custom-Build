@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Amazonian Race</name>
+		<update version="1.0.0">
+			<file name="pisithsork.index" url="https://raw.githubusercontent.com/pisithsork/Aurora-Custom-Build/master/race-amazonian.index" />
+		</update>
+	</info>
+	<files>
+		<file name="subclass-cleric-coin.index" url="https://raw.githubusercontent.com/pisithsork/Aurora-Custom-Build/master/race-amazonian.xml" />
+	</files>
+</index>
